@@ -15,7 +15,7 @@ function onFormSubmit(event) {
     } = event.currentTarget;
     
     if (email.value === '' || password.value === '') {
-        alert("Заполни все поля!")
+      return  alert("Заполни все поля!")
     }
     
     console.log(`Email: ${email.value}, Password: ${password.value}`);
